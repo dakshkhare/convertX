@@ -42,21 +42,6 @@
 | **Render / Railway** | (Optional) Backend deployment        |
 | **LibreOffice**  | Backend dependency for conversion logic |
 
----
-
-## 📁 Folder Structure
-
-convertX/
-├── backend/
-│ ├── index.js # Express app entry
-│ └── uploads/ # Temp storage for uploaded files
-├── frontend/
-│ ├── index.html # UI layout
-│ └── style.css # Tailwind setup (optional)
-├── tailwind.config.js # Tailwind customization
-├── postcss.config.js # Tailwind + PostCSS integration
-├── package.json
-└── README.md
 
 ---
 
