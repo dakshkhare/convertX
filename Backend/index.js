@@ -7,7 +7,13 @@ const path = require('path')
 const app = express()
 const port = 3000
 
-app.use(cors())
+const corsOptions = {
+  origin: 'https://convert-x-pied.vercel.app', // your frontend URL
+  methods: ['POST', 'GET'],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 
 //setting up the file storage
 const storage = multer.diskStorage({
